@@ -1,0 +1,5 @@
+.Layout { 
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+}

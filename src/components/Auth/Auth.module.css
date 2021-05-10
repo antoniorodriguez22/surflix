@@ -1,0 +1,52 @@
+.Auth { 
+    max-height: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:gray; 
+    background-image: url(../../images/wave-background.jpg);
+    background-size: cover;
+}
+
+.Card {
+    background-color: black;
+    border-radius: 10px;
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+}
+
+.Title {
+    color: rgb(52, 133, 255);
+    font-size: 40px;
+    align-self: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.subheading {
+    color: white;
+    font-size: 25px;
+    align-self: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.buttonWrapper {
+    align-self: center;
+}
+
+@media only screen and (min-width: 678px) {
+
+    .Card {
+        width: auto;
+    }
+
+}
+

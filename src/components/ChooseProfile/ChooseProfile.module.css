@@ -1,0 +1,75 @@
+.ChooseProfile { 
+    max-height: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:black; 
+
+}
+
+.Card {
+    background-color: black;
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.Title {
+    color: white;
+    font-size: 30px;
+    align-self: center;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.userName {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    font-weight: 500;
+    justify-content: space-around;
+}
+
+.imgWrapper {
+    color: gray;
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imgWrapper:hover {
+    cursor: pointer;
+    outline: 5px solid white;
+    outline-offset: -2px;
+    color: white;
+
+}
+
+@media only screen and (min-width: 678px) {
+
+    .Card {
+        width: auto;
+    }
+
+    .Title {
+        color: white;
+        font-size: 50px;
+        align-self: center;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+
+}

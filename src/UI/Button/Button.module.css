@@ -1,0 +1,19 @@
+.Button {
+	background-color:rgb(52, 133, 255);;
+	border-radius:7px;
+	border:1px solid rgb(52, 133, 255);;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:13px 31px;
+	text-decoration:none;
+}
+.Button:hover {
+	background-color: rgb(38, 96, 184);;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,62 @@
+.Component {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Input {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    line-height: 5px;
+    border: 2px solid #dadada;
+    height: 30px;
+  }
+
+.Input:focus {
+    outline: none;
+    border-color:rgb(52, 133, 255);
+    box-shadow: 0 0 10px solid rgb(52, 133, 255);
+    
+  }
+
+.Label {
+    font-size: 17px !important;
+    color: white;
+}
+
+
+@media only screen and (min-width: 678px) {
+    .Component {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Input {
+        margin-top: 10px;
+        height: 30px;
+        width: 300px;
+        outline: none;
+        border-radius: 5px;
+        padding: 5px 10px; 
+        line-height: 5px;
+        border: 2px solid #dadada;
+      }
+    
+    .Input:focus {
+        outline: none;
+        border-color:rgb(52, 133, 255);
+        box-shadow: 0 0 10px solid rgb(52, 133, 255);;
+        
+      }
+    
+    .Label {
+        font-size: 20px !important;
+    }
+
+
+    
+
+
+}
