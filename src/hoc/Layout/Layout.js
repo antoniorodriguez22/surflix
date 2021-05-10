@@ -1,6 +1,3 @@
-
-
-import Header from '../../components/Header/Header';
 import Routes from '../../components/Routes/Routes';
 
 import classes from "./Layout.module.css";
