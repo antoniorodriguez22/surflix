@@ -2,16 +2,18 @@ import classes from './Header.module.css';
 import {useDispatch, useSelector} from 'react-redux';
 import {authActions} from '../../store/index';
 import avatar from '../../images/avatar.jpg'
+import { useHistory } from 'react-router';
 
 
 const Header = () => {
   const dispatch = useDispatch()
   const auth = useSelector(state => state.auth.isAuthenticated);
   const profile = useSelector(state => state.auth.isProfile);
-
+  const history = useHistory();
 
   const logout = () => {
     dispatch(authActions.logout());
+    history.push("/");
   }
 
   return (

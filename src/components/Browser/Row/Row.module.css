@@ -14,6 +14,20 @@
 .rowMovies {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media only screen and (min-width: 579px) {
+
+    .rowMovies {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Card {
+        width: auto;
+    }
+
 }

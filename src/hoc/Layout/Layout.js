@@ -10,7 +10,6 @@ const Layout = () =>{
 
     return(
         <div className={classes.Layout}>
-            <Header/>
 
             <Routes/>
             

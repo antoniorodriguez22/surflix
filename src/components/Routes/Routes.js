@@ -9,6 +9,7 @@ import {
 import Auth from '../Auth/Auth';
 import Browser from '../Browser/Browser';
 import ChooseProfile from '../ChooseProfile/ChooseProfile';
+import Header from "../Header/Header";
 
 
 const Routes = (props) => {
@@ -20,12 +21,13 @@ const Routes = (props) => {
 
     
         <Router> 
+            <Header/>
             <Switch>       
                 {
                     auth ?  (
                     <div>
-                        <Route path="/ChooseProfile" component={ChooseProfile}/>
-                        <Route path="/browse" component={Browser}/>
+                        <Route exact path="/ChooseProfile" component={ChooseProfile}/>
+                        <Route exact path="/browse" component={Browser}/>
                         </div>) : 
                         <Route exact path="/" component={Auth} />
                 }
